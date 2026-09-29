@@ -11,27 +11,27 @@ window.PORTFOLIO = {
      Pick your look: "terminal", "clean", or "story".
      showThemePicker: true shows the style switcher in the corner.
      Set it to false once you've picked your favorite.            */
-  theme: "clean",
-  showThemePicker: true,
+  theme: "terminal",
+  showThemePicker: false,
 
   /* ---------- ABOUT YOU ---------- */
-  name: "Anthony Cardozo",
-  initials: "AC",                       // shown if you don't add a photo
+  name: "Juan Villa",
+  initials: "JV",                       // shown if you don't add a photo
   photo: "",                            // optional: "images/headshot.jpg"
-  headline: "Software engineer building cloud systems and developer tools.",
+  headline: "Electrical and Computer Engineer building cloud systems and developer tools.",
   tagline: "I like building things people actually use.",   // used by the Story style
-  school: "CS at UT Austin, class of 2029",
+  school: "ECE at UT Austin, class of 2030",
   location: "Austin, TX",
   status: "Looking for Summer 2027 internships",             // leave "" to hide
 
   about: "I've worked on AI evaluation at AWS, a browser-based compiler at a startup, and the platform my SHPE chapter runs on. Before all that, I built an online store for my family's candy business.",
 
   /* ---------- CONTACT ---------- */
-  email: "anthonycardozo06@gmail.com",
+  email: "jcv.jjv@icloud.com",
   resume: "resume.pdf",                 // upload your resume with this exact name, or "" to hide
   links: [
-    { label: "LinkedIn", url: "https://linkedin.com/in/anthony-cardozo-4361b6310" },
-    { label: "GitHub",   url: "https://github.com/your-username" },
+    { label: "LinkedIn", url: "https://linkedin.com/in/juan-villa2622" },
+    { label: "GitHub",   url: "https://github.com/Slitsterr" },
   ],
 
   /* ---------- EXPERIENCE ----------
@@ -40,78 +40,82 @@ window.PORTFOLIO = {
      business all count.                                           */
   experience: [
     {
-      role: "Software Engineering Intern",
-      org: "Amazon Web Services",
-      place: "Seattle, WA",
-      dates: "Summer 2026",
-      summary: "Built a weekly pipeline that grades an AI root-cause-analysis agent and found fixes that raised its average score 23%.",
-      tags: ["Lambda", "SQS", "Bedrock", "DynamoDB"],
+      role: "Captain",
+      org: "DCHS Robotics Team",
+      place: "", // TODO: city, ST for your high school
+      dates: "Aug 2022 – May 2026",
+      summary: "Led a 4-time state-qualifying team, designing, programming, testing, and improving competition robots with 100+ hours each of Java and CAD.",
+      tags: ["Java", "Onshape", "Tinkercad", "Leadership"],
     },
     {
-      role: "Founding Engineer",
-      org: "One Dollar Computer",
-      place: "Austin, TX",
-      dates: "2026 – now",
-      summary: "Built the cloud compiler that lets you write C or Rust in the browser and flash a RISC-V board in under 6 seconds.",
-      tags: ["C", "Rust", "GCP", "WebHID"],
+      role: "Captain",
+      org: "DCHS Computer Science Team",
+      place: "", // TODO: same as above
+      dates: "Aug 2022 – May 2026",
+      summary: "Ran after-school practices and competition strategy, qualifying for regionals 3 times and state once while writing Java tools like scoreboards and graders.",
+      tags: ["Java", "Eclipse", "Competitive programming"],
     },
     {
-      role: "Website Lead",
-      org: "SHPE UT Austin",
-      place: "Austin, TX",
-      dates: "2026 – now",
-      summary: "Lead the platform 400+ members use to earn points for convention and stipends. 1,000+ check-ins in the first 3 weeks.",
-      tags: ["React", "Supabase"],
+      role: "Trumpet Section Leader",
+      org: "DCHS Marching Band",
+      place: "", // TODO: same as above
+      dates: "Aug 2022 – May 2026",
+      summary: "Led the trumpet section for 2 years and mentored younger players. Earned 2 All-Region and 2 State Solo & Ensemble qualifications, plus a state qualification with the band.",
+      tags: ["Leadership", "Mentoring", "1,000+ hours"],
     },
     {
-      role: "Founder",
-      org: "Cardozo Enchilados",
-      place: "Dallas, TX",
-      dates: "2023 – now",
-      summary: "Run a Mexican candy business with my family: 1,500+ units sold, plus a Stripe storefront that replaced taking orders over DMs.",
-      tags: ["React", "Express", "MongoDB", "Stripe"],
+      role: "Cook",
+      org: "Pizza Hut",
+      place: "Seminole, TX",
+      dates: "Jun 2025 – Aug 2026",
+      summary: "Handled multiple high-volume orders at once while keeping accuracy, quality, and safety standards under tight time limits.",
+      tags: ["Teamwork", "Time management"],
     },
   ],
-
-  /* ---------- PROJECTS ----------
-     2 to 4 projects works best. Class projects count!
-     "result" is one line about what happened or what you learned.
-     "url" can link to a demo, GitHub repo, or photos ("" for none). */
+ 
+  /* ---------- PROJECTS ---------- */
   projects: [
     {
-      name: "HONK",
-      when: "Hackathon · Apr 2026",
-      stack: ["Next.js", "Gemini", "Firebase"],
-      summary: "A focus app that checks your screen every minute. Drift off task and it honks at you and takes your bread.",
-      result: "Distracted time dropped from 33% to 8%",
-      url: "",
+      name: "Autonomous Pathing",
+      when: "DCHS Robotics",
+      stack: ["Java", "Odometry", "Bezier curves"],
+      summary: "A motion-planning and path-following system that uses pose estimation, Bezier-curve trajectories, and closed-loop feedback to drive a robot along predefined paths.",
+      result: "Tracks position with 3 odometry pods and corrects error in real time", // TODO: add a measured result if you have one (e.g. accuracy in inches)
+      url: "", // TODO: GitHub repo or demo video
     },
     {
-      name: "Landing Pad",
-      when: "Hackathon · Jul 2026",
-      stack: ["React", "TypeScript", "AWS CDK"],
-      summary: "A no-login city guide where outgoing interns pass down their favorite food, housing, and activity spots to the next class.",
-      result: "54 places on a color-coded map",
-      url: "",
+      name: "Competition Robot",
+      when: "DCHS Robotics",
+      stack: ["Java", "Onshape", "Tinkercad"],
+      summary: "Designed, programmed, tested, and iterated on robots for competitive events across four seasons as team captain.",
+      result: "4-time state qualifier", // TODO: name the specific robot/season if you want
+      url: "", // TODO: photos or CAD renders
     },
     {
-      name: "SHPE Chapter Platform",
-      when: "SHPE · 2026",
-      stack: ["React", "Supabase"],
-      summary: "Event check-ins, a points leaderboard, and an officer dashboard for our chapter.",
-      result: "1,000+ check-ins in 3 weeks",
-      url: "",
+      name: "Scoreboard & Grading Programs",
+      when: "DCHS CS Team",
+      stack: ["Java", "Eclipse"],
+      summary: "Java programs that automate scoring and grading, written and debugged for programming challenges and competition prep.",
+      result: "Helped the team qualify for regionals 3 times and state once",
+      url: "", // TODO: GitHub, if you still have the code
     },
   ],
-
-  /* ---------- SKILLS ----------
-     Group them however makes sense for your major.               */
+ 
+  /* ---------- SKILLS ---------- */
   skills: [
-    { group: "Languages",  items: ["Java", "C", "Python", "JavaScript", "TypeScript", "x86 Assembly"] },
-    { group: "Frameworks", items: ["React", "Next.js", "Node", "Express", "Supabase", "Firebase"] },
-    { group: "Cloud",      items: ["AWS Lambda", "S3", "SQS", "DynamoDB", "Bedrock", "CDK"] },
+    { group: "Languages", items: ["Java"] },
+    { group: "Tools", items: ["Eclipse", "Android Studio", "Onshape", "Tinkercad"] },
+    { group: "Concepts", items: ["Pose estimation", "Path planning", "Feedback control", "CAD design"] },
+    { group: "Leadership", items: ["Team leadership", "Project management", "Mentoring"] },
   ],
-
-  /* ---------- AWARDS (optional, use [] for none) ---------- */
-  awards: ["Amazon Future Engineer Scholar", "Dijkstra Scholar", "HITEC Scholar", "HSF Scholar"],
+ 
+  /* ---------- AWARDS ---------- */
+  awards: [
+    "4-Time State Qualifier, Robotics",
+    "1-Time State & 3-Time Regionals Qualifier, Computer Science",
+    "2-Time All-Region Band",
+    "State Qualifier, Marching Band",
+    "2-Time State Solo & Ensemble Qualifier",
+  ],
 };
+ 
