@@ -96,7 +96,7 @@ window.PORTFOLIO = {
       when: "DCHS CS Team",
       stack: ["Java", "Eclipse"],
       summary: "Java programs that automate scoring and grading, written and debugged for programming challenges and competition prep.",
-      result: "Helped the team qualify for regionals 3 times and state once",
+      result: "Led the team to qualify for regionals 3 times and state once",
       url: "", // TODO: GitHub, if you still have the code
     },
   ],
